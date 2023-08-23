@@ -51,6 +51,7 @@
       @include('user.heder')
       @include('user.banner')
       @include('user.homeabout')
+      @include('user.product')
       @include('user.voucher')
       @include('user.Petsadpost')
       @include('user.banner2')
