@@ -10,7 +10,7 @@ class HomeController extends Controller
 {
     public function redirect()
     {
-        $usertype=Auth::user()->usertype;
+
 
         if($usertype=='1')
         {
@@ -19,14 +19,8 @@ class HomeController extends Controller
 
         else
         {
-            // $data = Product::paginate(3);
-
-            // $user=auth()->user();
-
-            // $count=cart::where('phone',$user->phone)->count();
-
-
-            return view('dashboard');
+           
+            return view('user.home');
         }
 
     }
